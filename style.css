@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica, sans-serif';
+    text-align: center;
+    color: #777;
+    background: #777;
+    margin-left: 100px;
+    margin-right: 150px;
+    width: 960px;
+    font-size: 18px;
+    
+}
+
+.header, .nav, section, aside, .footer {
+    background: #ebebeb;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+}
+
+h1 {
+    color: #777;
+    background: #ebebeb;
+    padding: 10px 220px 10px 220px;
+    float: left;
+    position: relative;
+    bottom: -10px;
+    z-index: 4;
+    
+} 
+
+
+section {
+    clear: both;
+    overflow: auto;
+    width: 555px;
+    height: 305px;
+    float: left;
+    margin: 10px 50px 10px 50px;
+    position: static;
+    left: 0px;
+    top: 0px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+#article {
+    width: 475px;
+    height: 170px;
+    text-align: center;
+    background: #777;
+    margin: 30px 20px 20px 20px;
+    padding: 30px 20px 10px 20px;
+    color:  #ebebeb;
+    z-index: 2;
+}
+
+aside {
+    clear: both;
+    overflow: auto;
+    text-align: center;
+    width: 465px;
+    height: 305px;
+    float: left;
+    left: 675px;
+    margin: 10px 50px 20px 50px;
+    position: absolute;
+}
+
+.headers {
+    color: #777;
+    background: #ebebeb;
+    padding: 10px 220px 10px 220px;
+    text-align: center;
+    float: middle;
+    position: relative;
+    top: 25px;
+    bottom: 10px;
+    z-index: 10;
+}
+
+.paragraph {
+    color: #777;
+    background: #ebebeb;
+    padding: 10px 220px 10px 220px;
+    text-align: center;
+    float: middle;
+    position: relative;
+    top: 50px;
+    bottom: -10px;
+    top: 
+    z-index: 10;
+
+}
+.box-header {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica, sans-serif';
+    text-align: center;
+    color: #777;
+    background: #ebebeb;
+    width: 960px;
+    font-size: 18px;
+    margin: 20px 50px 10px 50px;
+    padding: 40px;
+    position: static;
+} 
+
+.box-nav {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica, sans-serif';
+    text-align: center;
+    color: #777;
+    background: #ebebeb;
+    width: 960px;
+    font-size: 18px;
+    margin: 20px 50px 10px 50px;
+    padding: 40px;
+    position: static;
+} 
+
+.box-footer {
+    clear: both;
+    overflow: auto;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica, sans-serif';
+    text-align: center;
+    color: #777;
+    background: #ebebeb;
+    bottom: 40px;
+    width: 960px;
+    font-size: 18px;
+    margin: 10px 50px 10px 50px;
+    padding: 40px;
+} 
